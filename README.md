@@ -1,7 +1,41 @@
 # Predicting Bitcoin Price with Supervised Learning Methods
 
-In the world of cryptocurrency market, traditional technical analysis (TA) is a method for studying historical price charts and trading volume data to identify potential future price movements. However, due to the inherent volatility and non-linear relationships within the market, traditional methods often fall short.
+## Bitcoin Price Prediction
 
-This project aims to develop and evaluate Supervised Learning models for predicting bitcoin price. The focus will be on assessing the effectiveness of Linear Regression and Support Vector Machines (SVM) in capturing historical price patterns and making predictions for future price movements.
+This repository explores various machine learning models for predicting Bitcoin prices. The current focus is on supervised learning techniques. Future additions include unsupervised and deep learning approaches.
 
-Let's start [btc_price_prediction.ipynb](https://github.com/zac4j/btc-price-prediction/blob/main/btc_price_prediction.ipynb) with supervised learning methods.
+### Project Overview
+
+Bitcoin's price volatility makes prediction a challenging but interesting task. This project investigates the effectiveness of different machine learning models in forecasting future prices. The initial implementation utilizes supervised learning methods.
+
+### Current Implementation
+
+* **Supervised learning** models (e.g., Linear Regression, Support Vector Machines) are used to predict Bitcoin prices.
+* The project utilizes historical price data to train and test the models.
+* The code is written in Python (specify libraries used like pandas, scikit-learn).
+
+### Future Work
+
+* Implementation of **unsupervised learning** models (e.g., K-Means clustering) to identify patterns in the data.
+* Exploration of **deep learning** architectures (e.g., LSTMs) for time series forecasting.
+* Performance comparison of different models.
+* Integration of additional features that might influence price (e.g., social sentiment).
+
+### Getting Started
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/zac4j/btc-price-prediction.git
+```
+
+2. Run the prediction Jupter Notebook:
+
+- [btc_price_prediction.ipynb](https://github.com/zac4j/btc-price-prediction/blob/main/btc_price_prediction.ipynb)
+
+**Note:** This script assumes the data is pre-processed and stored in a specific format. You might need to modify the script based on your data structure.
+
+### Disclaimer
+
+Bitcoin price prediction is a complex task, and the models implemented here are for educational purposes only. The predictions should not be considered financial advice.
+
