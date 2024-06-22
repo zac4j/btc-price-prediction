@@ -2,7 +2,7 @@
 
 ## Bitcoin Price Prediction
 
-This repository explores various machine learning models for predicting Bitcoin prices. The current focus is on supervised learning techniques. Future additions include unsupervised and deep learning approaches.
+This repository explores various machine learning models for predicting Bitcoin prices. The current focus is on supervised learning techniques. Future additions include advanced machine learning approaches.
 
 ### Project Overview
 
@@ -12,7 +12,7 @@ Bitcoin's price volatility makes prediction a challenging but interesting task. 
 
 * **Supervised learning** models (e.g., Linear Regression, Support Vector Machines) are used to predict Bitcoin prices.
 * The project utilizes historical price data to train and test the models.
-* The code is written in Python (specify libraries used like pandas, scikit-learn).
+* The code is written in Python (specify libraries used like pandas, scikit-learn) in Jupyter Notebook.
 
 ### Future Work
 

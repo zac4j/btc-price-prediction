@@ -8,8 +8,6 @@ import seaborn as sns
 from matplotlib.colors import rgb2hex
 import plotly.graph_objects as go
 
-formate = {}
-
 # Load Bitcoin csv data
 filename = 'data/BTC-USD.csv'
 df = pd.read_csv(filename,parse_dates=['Date'],index_col='Date')
