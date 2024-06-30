@@ -31,7 +31,9 @@ git clone https://github.com/zac4j/btc-price-prediction.git
 
 2. Run the prediction Jupter Notebook:
 
-- [btc_price_prediction.ipynb](https://github.com/zac4j/btc-price-prediction/blob/main/btc_price_prediction.ipynb)
+- Supervised Learning approach: [btc_price_prediction.ipynb](https://github.com/zac4j/btc-price-prediction/blob/main/supervised%20learning/btc_price_prediction.ipynb)
+- Unsupervised Learning approach: TBD
+- Deep Learning approach: TBD
 
 **Note:** This script assumes the data is pre-processed and stored in a specific format. You might need to modify the script based on your data structure.
 
